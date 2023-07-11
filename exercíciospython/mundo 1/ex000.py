@@ -1,0 +1,5 @@
+print('======DESAFIO 12======')
+pre = float(input('Qual é o preço do produto? '))
+desc = pre - (pre * 5 / 100)
+print('O produto que custava R${}'.format(pre))
+print('agora com 5% de desconto custará R${}'.format(pre-(pre*5/100)))
